@@ -1,0 +1,30 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "NSObject+valid.h"
+    #import "NSString+Helper.h"
+    #import "Commons.h"
+    #import "KBLabel.h"
+#import "KBToggle.h"
+    #import <Parse/Parse.h>
+    #import "KBData.h"
+    #import "User.h"
+    #import "Notification.h"
+#import "KBAppDelegate.h"
+#import "KBViewController.h"
+    #import <AFNetworking/AFNetworking.h>
+
+
+#endif
