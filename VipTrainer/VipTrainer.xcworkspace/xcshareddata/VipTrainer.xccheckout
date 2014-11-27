@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>081ABC58-5526-4B4A-90C1-1F8FE300CB77</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VipTrainer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7AD8034F-F5DB-4FB2-ADAD-65C097882969</key>
+		<string>https://github.com/amartawar/VIPTrainer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VipTrainer/VipTrainer.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7AD8034F-F5DB-4FB2-ADAD-65C097882969</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/amartawar/VIPTrainer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7AD8034F-F5DB-4FB2-ADAD-65C097882969</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7AD8034F-F5DB-4FB2-ADAD-65C097882969</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VIPTrainer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
