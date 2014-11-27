@@ -254,14 +254,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="hp8-gF-h9M">
-                        <barButtonItem key="rightBarButtonItem" title="Next" id="iPg-fG-WQc">
-                            <color key="tintColor" red="0.35294118520000001" green="0.80000001190000003" blue="0.29803922770000002" alpha="1" colorSpace="deviceRGB"/>
-                            <connections>
-                                <action selector="next:" destination="0Mf-Fe-bD6" id="qJu-yE-4lT"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="VIP Trainer Profile" id="hp8-gF-h9M"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="addPictureButton" destination="8IE-4I-Y2z" id="NJr-F7-XyQ"/>
@@ -273,12 +266,29 @@
                         <outlet property="profilePictureImage" destination="hse-nd-qkK" id="VLe-bd-Q6C"/>
                         <outlet property="scrollView" destination="AHI-OF-2Pa" id="OVw-o0-U45"/>
                         <outlet property="tblMenu" destination="tsw-FU-JWA" id="62d-Cr-Vtn"/>
-                        <segue destination="WwN-e7-raG" kind="push" identifier="interests" id="0Mx-mc-rNp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nWU-oM-ixi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="178" y="137"/>
+        </scene>
+        <!--Basic About Me-->
+        <scene sceneID="oy0-TU-Gd4">
+            <objects>
+                <viewController id="FS7-gv-R0O" customClass="KBBasicAboutMe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iW4-KK-sgh"/>
+                        <viewControllerLayoutGuide type="bottom" id="zEB-mZ-V0M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8FX-IE-ZaP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YnA-kA-mkm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="525" y="37"/>
         </scene>
         <!--Interests List - Goals-->
         <scene sceneID="Bh7-GU-Wzb">
@@ -350,7 +360,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vU6-8c-hYJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="564" y="137"/>
+            <point key="canvasLocation" x="746" y="137"/>
         </scene>
         <!--Qualifications-->
         <scene sceneID="TxB-lj-vCD">
