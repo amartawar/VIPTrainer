@@ -190,7 +190,10 @@
 		55AFD4861A290503001A2317 /* KBSucessStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AFD4851A290503001A2317 /* KBSucessStoryViewController.m */; };
 		55AFD4891A290522001A2317 /* KBAccountPrefernceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AFD4881A290522001A2317 /* KBAccountPrefernceViewController.m */; };
 		5A8F430F00474288AC67AF08 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF7B6EC88004845839AFFBE /* libPods.a */; };
-		A6BD36451A2667000062D739 /* KBBasicAboutMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD36441A2667000062D739 /* KBBasicAboutMe.m */; };
+		A66E1B1F1A2BA46700DC9859 /* KBBasicAboutMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A66E1B181A2BA46700DC9859 /* KBBasicAboutMe.m */; };
+		A66E1B201A2BA46700DC9859 /* KBBasicProfileTrainerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A66E1B1A1A2BA46700DC9859 /* KBBasicProfileTrainerMenu.m */; };
+		A66E1B211A2BA46700DC9859 /* KBBasicProfileTrainerSelections.m in Sources */ = {isa = PBXBuildFile; fileRef = A66E1B1C1A2BA46700DC9859 /* KBBasicProfileTrainerSelections.m */; };
+		A66E1B221A2BA46700DC9859 /* KBProfileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A66E1B1E1A2BA46700DC9859 /* KBProfileDataSource.m */; };
 		A6F887DC1A21001400B7D531 /* KBFHomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F887DB1A21001400B7D531 /* KBFHomeScreen.m */; };
 /* End PBXBuildFile section */
 
@@ -488,8 +491,14 @@
 		55AFD4871A290522001A2317 /* KBAccountPrefernceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBAccountPrefernceViewController.h; sourceTree = "<group>"; };
 		55AFD4881A290522001A2317 /* KBAccountPrefernceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBAccountPrefernceViewController.m; sourceTree = "<group>"; };
 		8EF7B6EC88004845839AFFBE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6BD36431A2667000062D739 /* KBBasicAboutMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBasicAboutMe.h; sourceTree = "<group>"; };
-		A6BD36441A2667000062D739 /* KBBasicAboutMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBasicAboutMe.m; sourceTree = "<group>"; };
+		A66E1B171A2BA46700DC9859 /* KBBasicAboutMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBasicAboutMe.h; sourceTree = "<group>"; };
+		A66E1B181A2BA46700DC9859 /* KBBasicAboutMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBasicAboutMe.m; sourceTree = "<group>"; };
+		A66E1B191A2BA46700DC9859 /* KBBasicProfileTrainerMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBasicProfileTrainerMenu.h; sourceTree = "<group>"; };
+		A66E1B1A1A2BA46700DC9859 /* KBBasicProfileTrainerMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBasicProfileTrainerMenu.m; sourceTree = "<group>"; };
+		A66E1B1B1A2BA46700DC9859 /* KBBasicProfileTrainerSelections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBasicProfileTrainerSelections.h; sourceTree = "<group>"; };
+		A66E1B1C1A2BA46700DC9859 /* KBBasicProfileTrainerSelections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBasicProfileTrainerSelections.m; sourceTree = "<group>"; };
+		A66E1B1D1A2BA46700DC9859 /* KBProfileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBProfileDataSource.h; sourceTree = "<group>"; };
+		A66E1B1E1A2BA46700DC9859 /* KBProfileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBProfileDataSource.m; sourceTree = "<group>"; };
 		A6F887DA1A21001400B7D531 /* KBFHomeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBFHomeScreen.h; sourceTree = "<group>"; };
 		A6F887DB1A21001400B7D531 /* KBFHomeScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBFHomeScreen.m; sourceTree = "<group>"; };
 		AAF37AED6DAE46D1924F8CB5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -660,8 +669,14 @@
 		481F099A18EE7C5D009D1FA2 /* Singup */ = {
 			isa = PBXGroup;
 			children = (
-				A6BD36431A2667000062D739 /* KBBasicAboutMe.h */,
-				A6BD36441A2667000062D739 /* KBBasicAboutMe.m */,
+				A66E1B171A2BA46700DC9859 /* KBBasicAboutMe.h */,
+				A66E1B181A2BA46700DC9859 /* KBBasicAboutMe.m */,
+				A66E1B191A2BA46700DC9859 /* KBBasicProfileTrainerMenu.h */,
+				A66E1B1A1A2BA46700DC9859 /* KBBasicProfileTrainerMenu.m */,
+				A66E1B1B1A2BA46700DC9859 /* KBBasicProfileTrainerSelections.h */,
+				A66E1B1C1A2BA46700DC9859 /* KBBasicProfileTrainerSelections.m */,
+				A66E1B1D1A2BA46700DC9859 /* KBProfileDataSource.h */,
+				A66E1B1E1A2BA46700DC9859 /* KBProfileDataSource.m */,
 				4830D73818ED443800F8BCE8 /* KBInterestsList.h */,
 				4830D73918ED443800F8BCE8 /* KBInterestsList.m */,
 				483E8AB818FE52F5005337B8 /* KBQualifications.h */,
@@ -1206,9 +1221,11 @@
 				48003D401987AE7200E50BB7 /* KBAssessmentEditor.m in Sources */,
 				48F680CC18F22B530006349A /* KBClientCell.m in Sources */,
 				48AFFF5B19BD85F40082E834 /* KBRatingViewer.m in Sources */,
+				A66E1B1F1A2BA46700DC9859 /* KBBasicAboutMe.m in Sources */,
 				4830D72C18ED42FE00F8BCE8 /* KBInterestsCell.m in Sources */,
 				4891B58B18EBDD6D00925E4B /* KBExerciseCell.m in Sources */,
 				48ED770718D8E1EE00D85C91 /* KBRoundedRectOutline.m in Sources */,
+				A66E1B221A2BA46700DC9859 /* KBProfileDataSource.m in Sources */,
 				4832E9B619258E2200DCAA7F /* KBWorkoutList2.m in Sources */,
 				48EE677C192C6CD9000FB32A /* KBAssessmentList.m in Sources */,
 				48B94D4F18EAA47F0001E4BB /* User.m in Sources */,
@@ -1220,11 +1237,13 @@
 				48EBE3081904C596006FC5BC /* KBWorkoutSettings.m in Sources */,
 				4839F5891926219C00A95EC3 /* KBAssessment.m in Sources */,
 				4830D73D18ED4D6900F8BCE8 /* KBSlideUpSegue.m in Sources */,
+				A66E1B211A2BA46700DC9859 /* KBBasicProfileTrainerSelections.m in Sources */,
 				48121484197C9A5800DACDF4 /* KBProgressSummary.m in Sources */,
 				48B94D5218EAA5C90001E4BB /* Workout.m in Sources */,
 				481C94C718E8AB9B007D14C2 /* FXBlurView.m in Sources */,
 				48ED770918D8E1EE00D85C91 /* NSObject+valid.m in Sources */,
 				48C2B62419236CCF005AC017 /* KBClientList2.m in Sources */,
+				A66E1B201A2BA46700DC9859 /* KBBasicProfileTrainerMenu.m in Sources */,
 				48BF3E15192C974D00B53643 /* Notification.m in Sources */,
 				4830D73A18ED443800F8BCE8 /* KBInterestsList.m in Sources */,
 				48BF3E18192C98EA00B53643 /* KBClientSummary.m in Sources */,
@@ -1263,7 +1282,6 @@
 				485DAAF719612E60009138DA /* KBClientNutrition.m in Sources */,
 				48ED770818D8E1EE00D85C91 /* KBTextField.m in Sources */,
 				48ED770318D8E1EE00D85C91 /* KBLabel.m in Sources */,
-				A6BD36451A2667000062D739 /* KBBasicAboutMe.m in Sources */,
 				48ED770618D8E1EE00D85C91 /* KBTermsToggle.m in Sources */,
 				48EBAE77196A4794000123E2 /* ASStarRatingView.m in Sources */,
 				4830D74B18EDE0A100F8BCE8 /* KBChatList.m in Sources */,
@@ -1419,8 +1437,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Justin McCool (468QQ5GG7X)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Rahul/Personal/Amit/GitCode/VIPTrainer/VipTrainer,
-					/Rahul/Personal/Amit/GitCode/VIPTrainer,
+					"/Data/Projects/OutSource/VipTrainer_Files/GITCLONE//VIPTrainer/VipTrainer",
+					/Data/Projects/OutSource/VipTrainer_Files/GITCLONE/VIPTrainer,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VipTrainer/VipTrainer-Prefix.pch";
@@ -1450,8 +1468,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Justin McCool (939Y425H8L)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Rahul/Personal/Amit/GitCode/VIPTrainer/VipTrainer,
-					/Rahul/Personal/Amit/GitCode/VIPTrainer,
+					"/Data/Projects/OutSource/VipTrainer_Files/GITCLONE//VIPTrainer/VipTrainer",
+					/Data/Projects/OutSource/VipTrainer_Files/GITCLONE/VIPTrainer,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VipTrainer/VipTrainer-Prefix.pch";
