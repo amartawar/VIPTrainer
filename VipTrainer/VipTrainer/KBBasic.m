@@ -7,7 +7,9 @@
 //
 
 #import "KBBasic.h"
-
+#import "CertificationsViewController.h"
+#import "KBSucessStoryViewController.h"
+#import "KBAccountPrefernceViewController.h"
 @interface KBBasic ()
 @property(nonatomic,strong)NSMutableArray *arrMenu;
 @end
@@ -232,6 +234,20 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info {
     cell.textLabel.text=[self.arrMenu objectAtIndex:indexPath.row];
     return cell;
 }
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row==4) {
+        CertificationsViewController *controller=[self.storyboard instantiateViewControllerWithIdentifier:@"CertificationsViewController"];
+        [self.navigationController pushViewController:controller animated:YES];
+    }
+    else if (indexPath.row==5) {
+        KBSucessStoryViewController *controller=[self.storyboard instantiateViewControllerWithIdentifier:@"KBSucessStoryViewController"];
+        [self.navigationController pushViewController:controller animated:YES];
+    }
+    else if (indexPath.row==6) {
+        KBAccountPrefernceViewController *controller=[self.storyboard instantiateViewControllerWithIdentifier:@"KBAccountPrefernceViewController"];
+        [self.navigationController pushViewController:controller animated:YES];
+    }
+}
 
 @end

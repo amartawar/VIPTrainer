@@ -88,7 +88,6 @@
 		485DAAE7195D673C009138DA /* vip58.png in Resources */ = {isa = PBXBuildFile; fileRef = 485DAAE4195D673C009138DA /* vip58.png */; };
 		485DAAE8195D673C009138DA /* vip80.png in Resources */ = {isa = PBXBuildFile; fileRef = 485DAAE5195D673C009138DA /* vip80.png */; };
 		485DAAE9195D673C009138DA /* vip120.png in Resources */ = {isa = PBXBuildFile; fileRef = 485DAAE6195D673C009138DA /* vip120.png */; };
-		485DAAEB195D6775009138DA /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485DAAEA195D6775009138DA /* Images-2.xcassets */; };
 		485DAAEE1960B69D009138DA /* KBWorkoutPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DAAED1960B69D009138DA /* KBWorkoutPage.m */; };
 		485DAAF11960BA3F009138DA /* KBWorkoutNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DAAF01960BA3F009138DA /* KBWorkoutNavigation.m */; };
 		485DAAF719612E60009138DA /* KBClientNutrition.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DAAF619612E60009138DA /* KBClientNutrition.m */; };
@@ -187,6 +186,9 @@
 		48F680D718F23C120006349A /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F680D418F23C120006349A /* play_button.png */; };
 		48F680D818F23C120006349A /* skip.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F680D518F23C120006349A /* skip.png */; };
 		48F680DA18F23CBA0006349A /* skip2.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F680D918F23CBA0006349A /* skip2.png */; };
+		55AFD4831A2904E3001A2317 /* CertificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AFD4821A2904E3001A2317 /* CertificationsViewController.m */; };
+		55AFD4861A290503001A2317 /* KBSucessStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AFD4851A290503001A2317 /* KBSucessStoryViewController.m */; };
+		55AFD4891A290522001A2317 /* KBAccountPrefernceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AFD4881A290522001A2317 /* KBAccountPrefernceViewController.m */; };
 		5A8F430F00474288AC67AF08 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF7B6EC88004845839AFFBE /* libPods.a */; };
 		A6F887DC1A21001400B7D531 /* KBFHomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F887DB1A21001400B7D531 /* KBFHomeScreen.m */; };
 /* End PBXBuildFile section */
@@ -334,7 +336,6 @@
 		485DAAE4195D673C009138DA /* vip58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vip58.png; sourceTree = "<group>"; };
 		485DAAE5195D673C009138DA /* vip80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vip80.png; sourceTree = "<group>"; };
 		485DAAE6195D673C009138DA /* vip120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vip120.png; sourceTree = "<group>"; };
-		485DAAEA195D6775009138DA /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		485DAAEC1960B69D009138DA /* KBWorkoutPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBWorkoutPage.h; sourceTree = "<group>"; };
 		485DAAED1960B69D009138DA /* KBWorkoutPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBWorkoutPage.m; sourceTree = "<group>"; };
 		485DAAEF1960BA3F009138DA /* KBWorkoutNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBWorkoutNavigation.h; sourceTree = "<group>"; };
@@ -479,6 +480,12 @@
 		48F680D418F23C120006349A /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
 		48F680D518F23C120006349A /* skip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skip.png; sourceTree = "<group>"; };
 		48F680D918F23CBA0006349A /* skip2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skip2.png; sourceTree = "<group>"; };
+		55AFD4811A2904E3001A2317 /* CertificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificationsViewController.h; sourceTree = "<group>"; };
+		55AFD4821A2904E3001A2317 /* CertificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificationsViewController.m; sourceTree = "<group>"; };
+		55AFD4841A290503001A2317 /* KBSucessStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBSucessStoryViewController.h; sourceTree = "<group>"; };
+		55AFD4851A290503001A2317 /* KBSucessStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBSucessStoryViewController.m; sourceTree = "<group>"; };
+		55AFD4871A290522001A2317 /* KBAccountPrefernceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBAccountPrefernceViewController.h; sourceTree = "<group>"; };
+		55AFD4881A290522001A2317 /* KBAccountPrefernceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBAccountPrefernceViewController.m; sourceTree = "<group>"; };
 		8EF7B6EC88004845839AFFBE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F887DA1A21001400B7D531 /* KBFHomeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBFHomeScreen.h; sourceTree = "<group>"; };
 		A6F887DB1A21001400B7D531 /* KBFHomeScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBFHomeScreen.m; sourceTree = "<group>"; };
@@ -666,6 +673,12 @@
 				481F099F18EE7FFB009D1FA2 /* KBType.m */,
 				485DAAC9195D1C4A009138DA /* KBQuestionnaire.h */,
 				485DAACA195D1C4A009138DA /* KBQuestionnaire.m */,
+				55AFD4811A2904E3001A2317 /* CertificationsViewController.h */,
+				55AFD4821A2904E3001A2317 /* CertificationsViewController.m */,
+				55AFD4841A290503001A2317 /* KBSucessStoryViewController.h */,
+				55AFD4851A290503001A2317 /* KBSucessStoryViewController.m */,
+				55AFD4871A290522001A2317 /* KBAccountPrefernceViewController.h */,
+				55AFD4881A290522001A2317 /* KBAccountPrefernceViewController.m */,
 			);
 			name = Singup;
 			sourceTree = "<group>";
@@ -843,7 +856,6 @@
 				481214991986309600DACDF4 /* Meals */,
 				481C94E718E8B6E5007D14C2 /* Open */,
 				48ED76C018D8D80600D85C91 /* Images.xcassets */,
-				485DAAEA195D6775009138DA /* Images-2.xcassets */,
 				48ED76AC18D8D80600D85C91 /* Supporting Files */,
 			);
 			path = VipTrainer;
@@ -1117,7 +1129,6 @@
 				488AD5E21903AEA900F7770A /* green_background@2x.png in Resources */,
 				48EB563519003B710019EDA5 /* Dosis-ExtraBold.ttf in Resources */,
 				48F680D818F23C120006349A /* skip.png in Resources */,
-				485DAAEB195D6775009138DA /* Images-2.xcassets in Resources */,
 				48EB563819003B790019EDA5 /* Dosis-Medium.ttf in Resources */,
 				48F680C518F21CAB0006349A /* Trainer.storyboard in Resources */,
 				481C94DF18E8B2E3007D14C2 /* honey.png in Resources */,
@@ -1213,6 +1224,7 @@
 				4830D73A18ED443800F8BCE8 /* KBInterestsList.m in Sources */,
 				48BF3E18192C98EA00B53643 /* KBClientSummary.m in Sources */,
 				481C94D718E8AE19007D14C2 /* KBToggle.m in Sources */,
+				55AFD4831A2904E3001A2317 /* CertificationsViewController.m in Sources */,
 				48121493198621B800DACDF4 /* KBAssessmentView.m in Sources */,
 				4830D74C18EDE0A100F8BCE8 /* KBChatView.m in Sources */,
 				A6F887DC1A21001400B7D531 /* KBFHomeScreen.m in Sources */,
@@ -1231,6 +1243,7 @@
 				483E8AB718FE4EC7005337B8 /* Partnership.m in Sources */,
 				48AFFF5819BD77940082E834 /* Rating.m in Sources */,
 				48EE6779192C68FB000FB32A /* KBWorkoutViewer.m in Sources */,
+				55AFD4891A290522001A2317 /* KBAccountPrefernceViewController.m in Sources */,
 				48ED770D18D8E21800D85C91 /* KBSplitViewController.m in Sources */,
 				48ED76B618D8D80600D85C91 /* KBAppDelegate.m in Sources */,
 				481F099D18EE7ECD009D1FA2 /* KBCircleImageView.m in Sources */,
@@ -1265,6 +1278,7 @@
 				48ED771118D8E29F00D85C91 /* NSString+Helper.m in Sources */,
 				48EBAE7D196A56C5000123E2 /* KBWorkoutFinalize.m in Sources */,
 				483E8AC618FE81A7005337B8 /* KBExerciseBuilder.m in Sources */,
+				55AFD4861A290503001A2317 /* KBSucessStoryViewController.m in Sources */,
 				4812149C198630C100DACDF4 /* KBMealView.m in Sources */,
 				4812147C197C8D0D00DACDF4 /* KBProgressView.m in Sources */,
 				4812148D197CD33900DACDF4 /* Progress.m in Sources */,
@@ -1394,12 +1408,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AAF37AED6DAE46D1924F8CB5 /* Pods.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Justin McCool (468QQ5GG7X)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Data/Projects/OutSource/VipTrainer_Files/VipTrainer,
-					/Data/Projects/OutSource/VipTrainer_Files/VipTrainer/VipTrainer,
+					/Rahul/Personal/Amit/GitCode/VIPTrainer/VipTrainer,
+					/Rahul/Personal/Amit/GitCode/VIPTrainer,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VipTrainer/VipTrainer-Prefix.pch";
@@ -1424,12 +1439,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AAF37AED6DAE46D1924F8CB5 /* Pods.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Justin McCool (939Y425H8L)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Data/Projects/OutSource/VipTrainer_Files/VipTrainer,
-					/Data/Projects/OutSource/VipTrainer_Files/VipTrainer/VipTrainer,
+					/Rahul/Personal/Amit/GitCode/VIPTrainer/VipTrainer,
+					/Rahul/Personal/Amit/GitCode/VIPTrainer,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VipTrainer/VipTrainer-Prefix.pch";
