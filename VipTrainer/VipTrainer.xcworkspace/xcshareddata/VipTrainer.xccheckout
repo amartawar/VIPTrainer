@@ -5,19 +5,31 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>64582AC7-FE9B-404D-887B-F14BB1683367</string>
+=======
+	<string>081ABC58-5526-4B4A-90C1-1F8FE300CB77</string>
+>>>>>>> 9b02a84d09d914c64b3efbdd7ff3cde8d9e2c2ed
 	<key>IDESourceControlProjectName</key>
 	<string>VipTrainer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>B75625F7-6669-4C33-BB3A-E0C679C90647</key>
+=======
+		<key>7AD8034F-F5DB-4FB2-ADAD-65C097882969</key>
+>>>>>>> 9b02a84d09d914c64b3efbdd7ff3cde8d9e2c2ed
 		<string>https://github.com/amartawar/VIPTrainer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>VipTrainer/VipTrainer.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>B75625F7-6669-4C33-BB3A-E0C679C90647</key>
+=======
+		<key>7AD8034F-F5DB-4FB2-ADAD-65C097882969</key>
+>>>>>>> 9b02a84d09d914c64b3efbdd7ff3cde8d9e2c2ed
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +37,22 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
 	<string>B75625F7-6669-4C33-BB3A-E0C679C90647</string>
+=======
+	<string>7AD8034F-F5DB-4FB2-ADAD-65C097882969</string>
+>>>>>>> 9b02a84d09d914c64b3efbdd7ff3cde8d9e2c2ed
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>B75625F7-6669-4C33-BB3A-E0C679C90647</string>
+=======
+			<string>7AD8034F-F5DB-4FB2-ADAD-65C097882969</string>
+>>>>>>> 9b02a84d09d914c64b3efbdd7ff3cde8d9e2c2ed
 			<key>IDESourceControlWCCName</key>
 			<string>VIPTrainer</string>
 		</dict>
